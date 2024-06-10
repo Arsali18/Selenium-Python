@@ -79,7 +79,7 @@ time.sleep(2)
 elem = driver.find_element("xpath",'//*[@id="continue"]')
 elem.click()
 
-#Klik button Continue
+#Klik button Finish
 elem = driver.find_element("xpath",'//*[@id="finish"]')
 elem.click()
 
@@ -91,5 +91,9 @@ if element.text == "Thank you for your order!":
     print("Order Berhasil")
 else:
     print("Order Gagal")
+
+#Klik button Continue
+elem = driver.find_element(By.XPATH,'//*[@id="back-to-products"]')
+elem.click()
 
 driver.quit()
