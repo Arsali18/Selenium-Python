@@ -80,6 +80,6 @@ if element.text == "AUTOMATED TESTING & ERROR MONITORING SOLUTIONS":
 else:
     print("Klik side bar gagal")
 
-
+time.sleep(2)
 
 driver.quit()
